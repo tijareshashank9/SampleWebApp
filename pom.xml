@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.sample</groupId>
-  <artifactId>SampleWebApp123</artifactId>
+  <artifactId>SampleWebApp</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>SampleWebApp123 Maven Webapp</name>
+  <name>SampleWebApp Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -27,7 +27,7 @@
 				<path>/${project.artifactId}##${project.version}</path>
 				<url>http://13.126.164.101:8080/manager/text</url>
 					<username>admin</username>
-					<password>adminadmin</password>
+					<password>admin</password>
 					<update>true</update>
 				</configuration>
 			</plugin>
